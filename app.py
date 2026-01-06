@@ -17,7 +17,7 @@
     }
     * { box-sizing: border-box; }
     body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
-    .container { max-width:960px; margin:24px auto; padding:0 16px; }
+    .container { max-width:960px; margin:24px auto; padding:16px; }
     .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:16px; }
     h1,h2,h3 { color:var(--primary); margin:0 0 12px 0; }
     label { display:block; margin-bottom:6px; font-weight:600; color:var(--text); }
