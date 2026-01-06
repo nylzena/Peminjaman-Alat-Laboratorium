@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import date
 import time
 
-st.set_page_config(page_title="Pengembalian Alat Praktikum")
+st.set_page_config(page_title="Peminjaman Alat Praktikum")
 
 if "step" not in st.session_state:
     st.session_state.step = 1
@@ -11,14 +11,26 @@ if "data" not in st.session_state:
 
 alat_list = [
     "Pipet tetes",
-    "Gelas beaker (50, 100, 250, 500, 1000 mL)",
-    "Gelas ukur (5, 10, 50, 100 mL)",
-    "Labu takar (5, 10, 25, 50, 100 mL)",
+    "Gelas beaker 50 mL",
+    "Gelas beaker 250 mL",
+    "Gelas beaker 500 mL",
+    "Gelas beaker 1000 mL",
+    "Gelas ukur 5 mL",
+    "Gelas ukur 10 mL",
+    "Gelas ukur 50 mL",
+    "Gelas ukur 100 mL",
+    "Labu takar 5 mL",
+    "Labu takar 10 mL",
+    "Labu takar 25 mL",
+    "Labu takar 50 mL",
+    "Labu takar 100 mL",
     "Cawan petri",
-    "Buret (Mikro, Semi-Mikro, Makro)",
+    "Buret Mikro",
+    "Buret Semi-Mikro",
+    "Buret Makro",
     "Kasa Asbes",
     "Bunsen",
-    "Tabung reaksi (Biasa, Ulir)",
+    "Tabung reaksi",
     "Corong Kaca",
     "Penjepit Kayu",
     "Batang Pengaduk",
