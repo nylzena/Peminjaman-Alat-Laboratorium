@@ -17,7 +17,7 @@ st.markdown(
     }
 
     .block-container {
-        background: blue important;
+        background: cream important;
     }
 
     h1, h2, h3 {
